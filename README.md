@@ -1,4 +1,4 @@
-# Parallel Files Compactor 
+# Parallel Files Compressor 
 
 Given a source directory, the program performs recursive and parallel compression of all files belonging to the source directory and its subdirectories using **bzip2**.
 
@@ -24,7 +24,7 @@ The final directory is compressed with tar.
 Compile the program with:
 
 ``` bash
-$ gcc -o bin -lpthread compactor.c
+$ gcc -o bin -lpthread compressor.c
 ```
 
 Execute the binary with:
